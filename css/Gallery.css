@@ -1,0 +1,95 @@
+body {
+    background-color: black;
+}
+
+.header-content {
+    background-image: url("../assets/gallery/jael-rodriguez-AkF5NT0sZy8-unsplash-1-1_210301_200939_35d31212c7a2d4dccdff99afa3f88af5 - Copy.jpg");
+    background-repeat: no-repeat;
+    color: white;
+    width: 1338px;
+    height: 427px;
+}
+
+.list {
+    display: flex;
+    gap:500px;
+} 
+
+.text-head {
+    display: flex;
+    gap: 30px;
+    text-align: right;
+    font-size: large;
+    align-content: flex-end;
+    justify-content: stretch;
+    padding: 30px;
+}
+
+.logo {
+    padding: 30px;
+}
+
+
+.footer-Container {
+    padding: 0px;
+    background-color: #161F1E;
+    color: white;
+}
+
+.footer-box {
+    display: flex;
+    gap: 700px;
+}
+
+.box {
+    display: flex;
+}
+
+.logo-img {
+    height: 50px;
+    width: 70px;
+    padding: 50px;
+}
+
+.logo2 {
+    align-items: center;
+}
+
+.part {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-div {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: auto;
+}
+.text {
+    color: white;
+    padding: 30px;
+    font-size: 25px;
+}
+
+.main-sub {
+    display: flex;
+}
+
+.img {
+    width: 446px;
+    height: 258.05px;
+}
+
+.gallery {
+    color: white;
+    font-size: 60px;
+    padding-left: 50px;
+    padding-top: 50px;
+    
+}
+
+.main {
+    padding: 0px;
+}
