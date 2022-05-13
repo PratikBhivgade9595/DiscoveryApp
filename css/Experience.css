@@ -1,31 +1,6 @@
+
 body {
     background-color: black;
-}
-
-.main {
-    display: flex;
-    gap: 20px;
-    padding: 100px 0px 0px 0px;
-}
-
-.img {
-    height: 150px;
-    width: 315px;
-}
-
-.caption {
-    text-align: left;
-    color: white;
-}
-
-.caption-place {
-    text-align: left;
-    color: white;
-}
-
-.header {
-    color: white;
-    display: flex;
 }
 
 .header-content {
@@ -51,11 +26,11 @@ body {
 .logo {
     padding: 30px;
 }
-
 .footer-Container {
     padding: 0px;
     background-color: #161F1E;
     color: white;
+    position: relative;
 }
 
 .footer-box {
@@ -84,4 +59,23 @@ body {
 
 .copyright {
     padding: 30px;
+}
+
+.part-1 {
+    display: block;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    opacity: 1;
+}
+
+.bottom-block {
+    text-align: center;
+    background-image: url("../assets/experience/our_world.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 450px;
+    font-size: 70px;
+    padding: 80px;
+    color: white;
 }

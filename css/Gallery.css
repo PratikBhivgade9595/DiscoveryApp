@@ -38,11 +38,12 @@ body {
 
 .footer-box {
     display: flex;
-    gap: 700px;
+    gap: 500px;
 }
 
 .box {
     display: flex;
+    gap: 70px;
 }
 
 .logo-img {
@@ -92,4 +93,12 @@ body {
 
 .main {
     padding: 0px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.copyright {
+    padding: 30px;
 }

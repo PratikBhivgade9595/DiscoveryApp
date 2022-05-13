@@ -1,31 +1,6 @@
+
 body {
-    background-color: black;
-}
-
-.main {
-    display: flex;
-    gap: 20px;
-    padding: 100px 0px 0px 0px;
-}
-
-.img {
-    height: 150px;
-    width: 315px;
-}
-
-.caption {
-    text-align: left;
-    color: white;
-}
-
-.caption-place {
-    text-align: left;
-    color: white;
-}
-
-.header {
-    color: white;
-    display: flex;
+    background-color:black;
 }
 
 .header-content {
@@ -51,11 +26,11 @@ body {
 .logo {
     padding: 30px;
 }
-
 .footer-Container {
     padding: 0px;
     background-color: #161F1E;
     color: white;
+    position: relative;
 }
 
 .footer-box {
