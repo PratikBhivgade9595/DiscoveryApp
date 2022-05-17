@@ -13,6 +13,7 @@ body {
 .list {
     display: flex;
     gap:500px;
+    flex-wrap: wrap;
 } 
 
 .text-head {
@@ -23,6 +24,7 @@ body {
     align-content: flex-end;
     justify-content: stretch;
     padding: 30px;
+    flex-wrap: wrap;
 }
 
 .logo {
@@ -39,6 +41,7 @@ body {
 .footer-box {
     display: flex;
     gap: 500px;
+    flex-wrap: wrap;
 }
 
 .box {
@@ -47,13 +50,15 @@ body {
 }
 
 .logo-img {
-    height: 50px;
+    /* height: 50px;
     width: 70px;
-    padding: 50px;
+    padding: 50px; */
 }
 
 .logo2 {
     align-items: center;
+    padding-left: 30px;
+    margin-top: 30px;
 }
 
 .part {

@@ -1,11 +1,69 @@
 
 body {
-    background-color:black;
+    background-color: white;
 }
 
 .header-content {
+    background-image: url(../assets/aboutDlc/YC-DSC_0007-2_2cbd80a0345be3b5a0b7649a1a2d057f.jpg);
+    width: 100%;
+    height: 100%;
     color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 1338px;
+    height: 600px;
+}
+
+.text-part1 {
     display: flex;
+    justify-content: center;
+    font-size: 150%;
+    
+}
+
+.white-container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    /* margin: 5%; */
+    gap: 10px;
+    padding: 60px;
+}
+
+.container-white {
+    margin-top: 50px;
+}
+
+.white-text-para {
+    color: #777777;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    text-align: left;
+    padding: 30px;
+    margin-left: 5%;
+}
+
+/* .img1 {
+    width: 100%;
+    height: 100%;
+
+}
+
+.img-container {
+    width: 100%;
+    height: 100%;
+} */
+
+.intro {
+    padding: 70px;
+    font-size: 300%;
+    align-content: center;
+    text-align: center;
+    /* margin-top: 30px;
+    margin-left: 30px; */
+    margin: 30px;
+    font-family: gt-sectra;
 }
 
 .list {
@@ -44,13 +102,15 @@ body {
 }
 
 .logo-img {
-    height: 50px;
+    /* height: 50px;
     width: 60px;
-    padding: 50px;
+    padding: 50px; */
 }
 
 .logo2 {
     align-items: center;
+    padding-left: 30px;
+    margin-top: 30px;
 }
 
 * {
