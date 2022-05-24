@@ -8,9 +8,14 @@ body {
     padding: 100px 0px 0px 0px;
 }
 
+.main1 {
+    display: flex;
+    gap: 20px;
+}
+
 .img {
     height: 150px;
-    width: 315px;
+    width: 315px; 
 }
 
 .caption {
@@ -86,4 +91,75 @@ body {
 
 .copyright {
     padding: 30px;
+}
+
+@media (min-width: 350px) and (max-width: 420px) {
+    
+.header-content {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+}
+
+
+.list {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+} 
+
+.header {
+    display: flex;
+}
+
+.text-head {
+    display: flex;
+    flex-direction: column;
+    margin-top: -400px;
+    text-align: left;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    margin-top: -60px;
+    
+}
+
+.main1 {
+    display: flex;
+    gap: 30px;
+    padding-left: 10px;
+}
+
+.img {
+    height: 83px;
+    width: 150px; 
+}
+.footer-Container {
+    padding: 0px;
+    box-sizing: border-box;
+    width: 360px;
+}
+
+.footer-box {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.caption {
+    font-size: 12px;
+}
+
+.caption-place {
+    font-size: 12px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    margin-top: -350px;
+}
+
 }
